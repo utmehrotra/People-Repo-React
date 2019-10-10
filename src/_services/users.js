@@ -2,7 +2,8 @@ import { commonConstants } from '../_constants/common';
 const BASEURL = commonConstants.BASEURL;
 
 export const userService = {
-    getUsers
+    getUsers,
+    getUsersFromURL
 };
 
 function getUsers(query) {
@@ -11,6 +12,15 @@ function getUsers(query) {
     };
     const queryParams = objToQueryString(query);
     return fetch(`${BASEURL}/api/people?${queryParams}`, requestOptions).then(handleResponse).then(users => {
+        return users;
+    });
+}
+
+function getUsersFromURL(url) {
+    const requestOptions = {
+        method: 'GET'
+    };
+    return fetch(`${url}`, requestOptions).then(handleResponse).then(users => {
         return users;
     });
 }

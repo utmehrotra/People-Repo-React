@@ -12,14 +12,18 @@
     "babel-preset-airbnb": "^4.1.0",
     "history": "^4.6.3",
     "lodash": "^4.17.15",
+    "lodash.debounce": "^4.0.8",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
     "react-router-dom": "^4.1.2",
     "react-scripts": "3.0.1",
+    "react-simple-infinite-scroll": "0.0.1",
+    "react-virtualized": "9.18.5",
     "redux": "^4.0.4",
     "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.2.0"
+    "redux-thunk": "^2.2.0",
+    "superagent": "^5.1.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
