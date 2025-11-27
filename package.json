@@ -17,7 +17,7 @@
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
     "react-router-dom": "^4.1.2",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "react-simple-infinite-scroll": "0.0.1",
     "react-virtualized": "9.18.5",
     "redux": "^4.0.4",
@@ -35,7 +35,7 @@
     "path": "^0.12.7",
     "webpack": "^4.15.0",
     "webpack-cli": "^3.0.8",
-    "webpack-dev-server": "^3.7.1"
+    "webpack-dev-server": "^5.2.2"
   },
   "eslintConfig": {
     "extends": "react-app"
